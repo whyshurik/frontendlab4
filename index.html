@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <title>Vyshnivskyi O.Y. IK-03 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        body {
+            color:white;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(52, 52, 52);
+        }
+    </style>
+</head>
+<body>
+<h2>Vyshnivskyi Oleksandr Yuriyovych</h2>
+Birth information: 25 January 2003, Kyiv.
+<p></p>
+Middle education: Kyiv middle school №296, Kyiv.
+<p></p>
+Higher education(in process): Igor Sikorsky Kyiv Polytechnic Institute, Kyiv.
+<p></p>
+
+<div id="first" style="font-size: 16px" onclick="ChangeColor(document.getElementById('first'))">Hobbies:
+    <ul >
+        <li>Computer games</li>
+        <li>Music</li>
+        <li>Watching "Світ навиворіт з Дмитром Комаровим"</li>
+        <li>Manga and anime</li>
+    </ul>
+
+</div>
+<div id="second" style="font-size: 16px" onclick="ChangeColor(document.querySelector('#second'))">Favorite films:
+    <ol>
+        <li>Your Name. 2016</li>
+        <li>The Shape of Voice. 2016</li>
+        <li>Once Upon a Time in Hollywood. 2019</li>
+    </ol>
+
+<p></p>
+</div>
+Tokyo (/ˈtoʊkioʊ/; Japanese: 東京, Tōkyō, [toːkʲoː], officially the Tokyo Metropolis (東京都, Tōkyō-to), is the capital and largest city of Japan.<br>
+Formerly known as Edo and historically called Tokio, its metropolitan area
+is the most populous in the world, with an estimated 37.468 million residents as of 2018;<br>
+the city proper has a population of 13.99 million people.
+Located at the head of Tokyo Bay, the prefecture forms part of the Kantō region on the central coast of Honshu,<br>
+Japan's largest island.
+Tokyo serves as Japan's economic centre and is the seat of both the Japanese government and the Emperor of Japan.
+<p></p>
+<button onclick="add()">Додати</button>
+<button onclick="zoomIn()">Збільшити</button>
+<button onclick="zoomOut()">Зменшити</button>
+<button onclick="clearImg()">Видалити</button>
+<br>
+<p></p>
+<div id="imgList">
+    <a href="https://www.metro.tokyo.lg.jp/english/">
+    <img id = "pic"  src="https://theplanetd.com/images/Best-Things-to-do-in-Tokyo-Japan-1.jpg" style="height: 380px; width: 650px;border-radius:4%" alt="">
+</a>
+</div>
+
+
+
+</body>
+</html>
